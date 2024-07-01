@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.h-wrapper{
+    background: var(--black);
+    color: white;
+}
+
+.h-container{
+   justify-content: space-between;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   color: var(--secondary);
+}
+.h-container h1{
+    width: 100px;
+}
+
+.h-menu{
+    gap: 2rem;
+}
+a{
+    margin-top: 8px;
+}
